@@ -17,7 +17,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Write n delay in seconds"
+            android:text="Write n delay in minute"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.051"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -40,7 +40,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Make notification" />
+            android:text="Make repeating notifications" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
